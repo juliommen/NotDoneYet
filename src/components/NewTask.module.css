@@ -1,0 +1,57 @@
+.newTask{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 3.375rem;
+}
+
+.newTask input{
+  width: 39.875rem;
+  height: 100%;
+  background-color: var(--gray-500);
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid var(--gray-700);
+  color: var(--gray-100);
+  font-size: 1rem;
+  transition: all 0.1s;
+}
+
+.newTask input:focus{
+  outline: none;
+  border: 1px solid var(--purpleDark);
+}
+
+.newTask input::placeholder{
+  color: var(--gray-300);
+  font-size: 1rem;
+}
+
+.newTask button {
+  background: var(--blueDark);
+  width: 5.625rem;
+  height: 3.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:0.5rem;
+  border-radius: 8px;
+  border: none;  
+  transition: all 0.1s;
+}
+
+.newTask button p{
+  font-size: 0.875rem;
+  color: var(--gray-100);
+  font-weight: bold;
+}
+
+.newTask button:hover {
+  background: var(--blue);
+}
+
+.newTask button svg {
+  color: var(--white);
+  width: calc( 4rem / 3);
+  height: calc( 4rem / 3);
+}
